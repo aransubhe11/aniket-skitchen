@@ -133,7 +133,7 @@
 #client-section::before
 {
     content: "";
-    background: url('../images/candies-7036390_1280.jpg') no-repeat center center/cover;
+    background: url('candies-7036390_1280.jpg') no-repeat center center/cover;
     position: absolute;
     height: 53%;
     width: 100%;
