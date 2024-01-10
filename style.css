@@ -1,0 +1,239 @@
+/* css Reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar::before
+{
+    
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0px;
+    left: 0px;
+}
+#navbar{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    
+    
+}
+#logo img
+{
+    width: 53px;
+    height: 47px;
+    padding: 10px 11px;
+    margin: 4px 21px ;
+    /* filter: invert(100%); */
+
+}
+#navbar ul
+{
+   
+    position: absolute;
+    display: flex;
+    left: 90px;
+    top: 8px;
+    list-style: none;
+    font-size: 1rem;
+    
+   
+}
+
+#navbar ul li a
+{
+    display: block;
+    margin: 12px 33px;
+    padding: 6px 21px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#navbar ul li a:hover
+{
+    color: black;
+    background: white;
+    
+}
+
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 200px;
+    align-items: center;
+    height: 667px;
+    justify-content: center;
+}
+#home::before
+{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("../images/Backgrounds/italian-cuisine-2378729_1920.jpg") no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.9;
+    top: 0px;
+    left: 0px;
+}
+#home h1
+{
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+}
+#home p
+{
+   text-align: center;
+   font-size: 1.2rem;
+   
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Services Center */
+#services 
+{
+      display: flex;
+      margin: 34px;
+}
+#services .box
+{
+    border: 2px solid black;
+    padding: 12px;
+    margin: 4px 7px;
+    background: #eadbd7;
+    border-radius: 25px;
+}
+#services .box img
+{
+    height: 152px;
+    display: block;
+    margin: auto;
+}
+
+
+/* Client Section */
+#client-section{
+     height: 348px;
+}
+.clients
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client-section::before
+{
+    content: "";
+    background: url('../images/candies-7036390_1280.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 53%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.clients img
+{
+    height: 84px;
+}
+.client-item
+{
+    padding: 34px ;
+
+}
+/* Contact section */
+.contact
+{
+    color: white;
+    
+}
+.contact::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 20%;
+background-color: black;
+
+
+
+z-index: -1;
+}
+
+#contact-box
+{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+
+.footercenter
+{
+    color: white;
+    text-align: center;
+} 
+.footer-heading
+{
+    text-align: center;
+}
+.form-group
+{
+    display: inline-block;
+    margin: 0px 24px;
+    font-size: 1.2rem;
+    padding: 0px 24px;
+}
+
+/* Utility-classes */
+.h-primary{
+    font-size: 2.5rem;
+    padding: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.h-secondary
+{
+    font-size: 1.5rem;
+    padding: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btn
+{
+    padding: 6px 20px;
+    border: 2px solid aqua;
+    color: aqua;
+    background: brown;
+    margin: 17px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+.btn:hover
+{
+    
+    color: black;
+    background: aqua;
+    
+
+}
+.center
+{
+    text-align: center;
+}
+.h-primarycenter
+{
+    text-align: center;
+    font-size: 2.1rem;
+}
